@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-align: center;
+}
+
+.inicio {
+    font-size: 17px;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: #999;
+    text-align: center;
+}
+
+label {
+    color: #777;
+    font-size: 1em;
+}
+
+#email, #password {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 10em;
+    border: 2px solid #dadada;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 1em;
+}
+
+::-webkit-input-placeholder {
+    font-size: 17px;
+    color: #999;
+}
+
+a {
+    text-decoration: none;
+    color: #4162b7;
+}
+
+.iskisi {
+    text-align: right;
+    font-size: 15px;
+}
+
+button {
+    background-color:#4162b7;
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 0;
+    font-size: 17px;
+    margin-top: 6px;
+    margin-bottom: 1em;
+}
+
+.kdastrisi {
+    font-size: 15px;
+    margin-bottom: 1em;
+}
+
+.footer {
+    text-align: center;
+    font-size: 15px;
+    color: #999;
+}
